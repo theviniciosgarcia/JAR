@@ -1,6 +1,6 @@
 package com.mycompany.exemplobanco;
 
-import com.mycompany.jar.speed.monitor.TelaDeLogin;
+import com.mycompany.jar.infinity.solutions.TelaDeLogin;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.mycompany.jar.speed.monitor;
+package com.mycompany.jar.infinity.solutions;
 
 import com.github.britooo.looca.api.teste.TesteApi;
 import com.mycompany.exemplobanco.ConexaoMysql;

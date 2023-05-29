@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.jar.speed.monitor;
+package com.mycompany.jar.infinity.solutions;
 
 import com.github.britooo.looca.api.group.processador.Processador;
 import com.github.britooo.looca.api.teste.TesteApi;
@@ -12,7 +12,6 @@ import java.awt.Color;
 import java.awt.GraphicsEnvironment;
 import java.util.Scanner;
 import javax.swing.JLabel;
-import com.mycompany.jar.speed.monitor.Logger;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
@@ -238,8 +237,6 @@ public class TelaDeLogin extends javax.swing.JFrame {
             if (validTotem) {
                 TesteApi.main(login, senha, numeroDeIdentificacaoDoTotem);
                 Logado logado = new Logado(login, numeroDeIdentificacaoDoTotem);
-                Logger log = new Logger();
-                log.main(login, senha , numeroDeIdentificacaoDoTotem);
                 logado.main(login, numeroDeIdentificacaoDoTotem);
             } else {
                 txtLabelVerificacao.setText("Totem informado invalido, informe um Totem valido");
@@ -326,8 +323,6 @@ public class TelaDeLogin extends javax.swing.JFrame {
                 if (validTotem) {
                     TesteApi.main(login, senha, numeroDeIdentificacaoDoTotem);
                     Logado logado = new Logado(login, numeroDeIdentificacaoDoTotem);
-                    Logger log = new Logger();
-                    log.main(login, senha, numeroDeIdentificacaoDoTotem);
                     logado.main(login, numeroDeIdentificacaoDoTotem);
                 } else {
                     System.out.println("Totem informado inválido. Informe um Totem válido.");
